@@ -19,14 +19,14 @@
 <div class="container mt-5">
     <form class="row g-3" id="registroForm">
         <!-- Nombre de Usuario -->
-        <div class="col-md-6">
+        <div class="col-md-12">
             <label for="nombreUsuario" class="form-label">Nombre de Usuario</label>
             <input type="text" class="form-control" id="nombreUsuario" name="nombreUsuario" required>
             <div class="invalid-feedback">Introduce tu nombre de usuario.</div>
         </div>
 
         <!-- RUT -->
-        <div class="col-md-6">
+        <div class="col-md-12">
             <label for="rut" class="form-label">RUT</label>
             <input type="text" class="form-control" id="rut" name="rut" required>
             <span id="rutError" class="text-danger"></span> <!-- Añadido -->
@@ -34,21 +34,21 @@
         </div>
 
         <!-- Email -->
-        <div class="col-md-6">
+        <div class="col-md-12">
             <label for="email" class="form-label">E-mail</label>
             <input type="email" class="form-control" id="email" name="email" required>
             <div class="invalid-feedback">Introduce un correo electrónico válido.</div>
         </div>
 
         <!-- Contraseña -->
-        <div class="col-md-6">
+        <div class="col-md-12">
             <label for="password" class="form-label">Contraseña</label>
             <input type="password" class="form-control" id="password" name="password" required>
             <div class="invalid-feedback">Introduce tu contraseña.</div>
         </div>
 
         <!-- Confirmación de Contraseña -->
-        <div class="col-md-6">
+        <div class="col-md-12">
             <label for="confirmPassword" class="form-label">Confirmación de Contraseña</label>
             <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
             <div class="invalid-feedback">Las contraseñas no coinciden.</div>
@@ -82,8 +82,8 @@
         </div>
 
         <!-- Botón de registro -->
-        <div class="col-12">
-            <button class="btn btn-primary" type="submit">Registrar</button>
+        <div class="registro">
+            <button class="btn btn-danger" type="submit">Registrarse</button>
         </div>
     </form>
 </div>
