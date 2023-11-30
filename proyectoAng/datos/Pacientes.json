@@ -1,0 +1,30 @@
+[
+    {
+        "Rut": "12345678-9",
+        "Nombres": "Felipe",
+        "Diagnostico": "Gripe",
+        "Estado": "Grave",
+        "Horario": "24/03/2001"
+    },
+    {
+        "Rut": "98765432-1",
+        "Nombres": "David",
+        "Diagnostico": "Gripe",
+        "Estado": "Leve",
+        "Horario": "07/04/2002"
+    },
+    {
+        "Rut": "12345678-9",
+        "Nombres": "Javiera",
+        "Diagnostico": "COVID-19",
+        "Estado": "Grave",
+        "Horario": "10/10/2010"
+    },
+    {
+        "Rut": "12456789-9",
+        "Nombres": "Martin",
+        "Diagnostico": "Fiebre",
+        "Estado": "Grave",
+        "Horario": "03/03/2003"
+    }
+]
